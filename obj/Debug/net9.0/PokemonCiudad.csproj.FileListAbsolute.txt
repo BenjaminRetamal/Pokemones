@@ -1,0 +1,14 @@
+C:\Users\BMIN\PokemonCiudad\bin\Debug\net9.0\PokemonCiudad.exe
+C:\Users\BMIN\PokemonCiudad\bin\Debug\net9.0\PokemonCiudad.deps.json
+C:\Users\BMIN\PokemonCiudad\bin\Debug\net9.0\PokemonCiudad.runtimeconfig.json
+C:\Users\BMIN\PokemonCiudad\bin\Debug\net9.0\PokemonCiudad.dll
+C:\Users\BMIN\PokemonCiudad\bin\Debug\net9.0\PokemonCiudad.pdb
+C:\Users\BMIN\PokemonCiudad\obj\Debug\net9.0\PokemonCiudad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BMIN\PokemonCiudad\obj\Debug\net9.0\PokemonCiudad.AssemblyInfoInputs.cache
+C:\Users\BMIN\PokemonCiudad\obj\Debug\net9.0\PokemonCiudad.AssemblyInfo.cs
+C:\Users\BMIN\PokemonCiudad\obj\Debug\net9.0\PokemonCiudad.csproj.CoreCompileInputs.cache
+C:\Users\BMIN\PokemonCiudad\obj\Debug\net9.0\PokemonCiudad.dll
+C:\Users\BMIN\PokemonCiudad\obj\Debug\net9.0\refint\PokemonCiudad.dll
+C:\Users\BMIN\PokemonCiudad\obj\Debug\net9.0\PokemonCiudad.pdb
+C:\Users\BMIN\PokemonCiudad\obj\Debug\net9.0\PokemonCiudad.genruntimeconfig.cache
+C:\Users\BMIN\PokemonCiudad\obj\Debug\net9.0\ref\PokemonCiudad.dll
