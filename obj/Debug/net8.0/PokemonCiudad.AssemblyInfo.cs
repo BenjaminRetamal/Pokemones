@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokemonCiudad")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e961dd2c603df05f57676b177b8b16e3a039c553")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c6d80dbf106efc82491ee1859c1532d9512340a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokemonCiudad")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokemonCiudad")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
