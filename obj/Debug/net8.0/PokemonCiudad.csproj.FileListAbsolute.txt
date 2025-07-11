@@ -1,0 +1,15 @@
+C:\Users\PIPE\Desktop\PokemonCiudad\bin\Debug\net8.0\PokemonCiudad.exe
+C:\Users\PIPE\Desktop\PokemonCiudad\bin\Debug\net8.0\PokemonCiudad.deps.json
+C:\Users\PIPE\Desktop\PokemonCiudad\bin\Debug\net8.0\PokemonCiudad.runtimeconfig.json
+C:\Users\PIPE\Desktop\PokemonCiudad\bin\Debug\net8.0\PokemonCiudad.dll
+C:\Users\PIPE\Desktop\PokemonCiudad\bin\Debug\net8.0\PokemonCiudad.pdb
+C:\Users\PIPE\Desktop\PokemonCiudad\obj\Debug\net8.0\PokemonCiudad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PIPE\Desktop\PokemonCiudad\obj\Debug\net8.0\PokemonCiudad.AssemblyInfoInputs.cache
+C:\Users\PIPE\Desktop\PokemonCiudad\obj\Debug\net8.0\PokemonCiudad.AssemblyInfo.cs
+C:\Users\PIPE\Desktop\PokemonCiudad\obj\Debug\net8.0\PokemonCiudad.csproj.CoreCompileInputs.cache
+C:\Users\PIPE\Desktop\PokemonCiudad\obj\Debug\net8.0\PokemonCiudad.sourcelink.json
+C:\Users\PIPE\Desktop\PokemonCiudad\obj\Debug\net8.0\PokemonCiudad.dll
+C:\Users\PIPE\Desktop\PokemonCiudad\obj\Debug\net8.0\refint\PokemonCiudad.dll
+C:\Users\PIPE\Desktop\PokemonCiudad\obj\Debug\net8.0\PokemonCiudad.pdb
+C:\Users\PIPE\Desktop\PokemonCiudad\obj\Debug\net8.0\PokemonCiudad.genruntimeconfig.cache
+C:\Users\PIPE\Desktop\PokemonCiudad\obj\Debug\net8.0\ref\PokemonCiudad.dll

@@ -29,16 +29,37 @@ namespace PokemonModels
 
         public double ObtenerEfectividad(TipoPokemon tipoAtaque, TipoPokemon tipoDefensor)
         {
-            if ((tipoAtaque == TipoPokemon.Agua && tipoDefensor == TipoPokemon.Fuego) ||
-                (tipoAtaque == TipoPokemon.Fuego && tipoDefensor == TipoPokemon.Planta) ||
-                (tipoAtaque == TipoPokemon.Planta && tipoDefensor == TipoPokemon.Agua) ||
-                (tipoAtaque == TipoPokemon.Electrico && tipoDefensor == TipoPokemon.Agua))
+            // Súper efectivo
+            if ((tipoAtaque == TipoPokemon.Agua && (tipoDefensor == TipoPokemon.Fuego || tipoDefensor == TipoPokemon.Roca || tipoDefensor == TipoPokemon.Tierra)) ||
+                (tipoAtaque == TipoPokemon.Fuego && (tipoDefensor == TipoPokemon.Planta || tipoDefensor == TipoPokemon.Bicho || tipoDefensor == TipoPokemon.Hielo)) ||
+                (tipoAtaque == TipoPokemon.Planta && (tipoDefensor == TipoPokemon.Agua || tipoDefensor == TipoPokemon.Tierra || tipoDefensor == TipoPokemon.Roca)) ||
+                (tipoAtaque == TipoPokemon.Electrico && (tipoDefensor == TipoPokemon.Agua || tipoDefensor == TipoPokemon.Volador)) ||
+                (tipoAtaque == TipoPokemon.Tierra && (tipoDefensor == TipoPokemon.Fuego || tipoDefensor == TipoPokemon.Electrico || tipoDefensor == TipoPokemon.Roca)) ||
+                (tipoAtaque == TipoPokemon.Hielo && (tipoDefensor == TipoPokemon.Planta || tipoDefensor == TipoPokemon.Tierra || tipoDefensor == TipoPokemon.Volador || tipoDefensor == TipoPokemon.Dragon)) ||
+                (tipoAtaque == TipoPokemon.Lucha && (tipoDefensor == TipoPokemon.Normal || tipoDefensor == TipoPokemon.Hielo || tipoDefensor == TipoPokemon.Roca)) ||
+                (tipoAtaque == TipoPokemon.Volador && (tipoDefensor == TipoPokemon.Planta || tipoDefensor == TipoPokemon.Lucha || tipoDefensor == TipoPokemon.Bicho)) ||
+                (tipoAtaque == TipoPokemon.Bicho && (tipoDefensor == TipoPokemon.Planta)))
                 return 2.0;
 
-            if ((tipoAtaque == TipoPokemon.Fuego && tipoDefensor == TipoPokemon.Agua) ||
-                (tipoAtaque == TipoPokemon.Planta && tipoDefensor == TipoPokemon.Fuego) ||
-                (tipoAtaque == TipoPokemon.Agua && tipoDefensor == TipoPokemon.Planta))
+            // No muy efectivo
+            if ((tipoAtaque == TipoPokemon.Agua && (tipoDefensor == TipoPokemon.Agua || tipoDefensor == TipoPokemon.Planta)) ||
+                (tipoAtaque == TipoPokemon.Fuego && (tipoDefensor == TipoPokemon.Fuego || tipoDefensor == TipoPokemon.Agua || tipoDefensor == TipoPokemon.Roca)) ||
+                (tipoAtaque == TipoPokemon.Planta && (tipoDefensor == TipoPokemon.Fuego || tipoDefensor == TipoPokemon.Planta || tipoDefensor == TipoPokemon.Bicho || tipoDefensor == TipoPokemon.Volador)) ||
+                (tipoAtaque == TipoPokemon.Electrico && (tipoDefensor == TipoPokemon.Electrico || tipoDefensor == TipoPokemon.Planta)) ||
+                (tipoAtaque == TipoPokemon.Tierra && (tipoDefensor == TipoPokemon.Planta || tipoDefensor == TipoPokemon.Bicho)) ||
+                (tipoAtaque == TipoPokemon.Hielo && (tipoDefensor == TipoPokemon.Fuego || tipoDefensor == TipoPokemon.Agua || tipoDefensor == TipoPokemon.Hielo)) ||
+                (tipoAtaque == TipoPokemon.Lucha && (tipoDefensor == TipoPokemon.Volador || tipoDefensor == TipoPokemon.Bicho)) ||
+                (tipoAtaque == TipoPokemon.Volador && (tipoDefensor == TipoPokemon.Electrico || tipoDefensor == TipoPokemon.Roca)) ||
+                (tipoAtaque == TipoPokemon.Bicho && (tipoDefensor == TipoPokemon.Fuego || tipoDefensor == TipoPokemon.Lucha || tipoDefensor == TipoPokemon.Volador)))
                 return 0.5;
+
+            // Sin efecto
+            if ((tipoAtaque == TipoPokemon.Electrico && tipoDefensor == TipoPokemon.Tierra) ||
+                (tipoAtaque == TipoPokemon.Normal && tipoDefensor == TipoPokemon.Fantasma) ||
+                (tipoAtaque == TipoPokemon.Lucha && tipoDefensor == TipoPokemon.Fantasma) ||
+                (tipoAtaque == TipoPokemon.Tierra && tipoDefensor == TipoPokemon.Volador) ||
+                (tipoAtaque == TipoPokemon.Fantasma && tipoDefensor == TipoPokemon.Normal))
+                return 0.0;
 
             return 1.0;
         }

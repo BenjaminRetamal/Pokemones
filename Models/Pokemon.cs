@@ -5,7 +5,7 @@ namespace PokemonModels
 {
     public enum TipoPokemon
     {
-        Agua, Fuego, Planta, Electrico, Normal
+        Agua, Fuego, Planta, Electrico, Normal,Tierra, Hielo, Lucha, Volador, Bicho, Fantasma, Dragon, Roca
     }
 
     public class Pokemon

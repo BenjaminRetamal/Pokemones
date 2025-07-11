@@ -1,36 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net8.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\BMIN\\.nuget\\packages\\": {}
+    "C:\\Users\\PIPE\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BMIN\\PokemonCiudad\\PokemonCiudad.csproj",
+      "projectUniqueName": "C:\\Users\\PIPE\\Desktop\\PokemonCiudad\\PokemonCiudad.csproj",
       "projectName": "PokemonCiudad",
-      "projectPath": "C:\\Users\\BMIN\\PokemonCiudad\\PokemonCiudad.csproj",
-      "packagesPath": "C:\\Users\\BMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BMIN\\PokemonCiudad\\obj\\",
+      "projectPath": "C:\\Users\\PIPE\\Desktop\\PokemonCiudad\\PokemonCiudad.csproj",
+      "packagesPath": "C:\\Users\\PIPE\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PIPE\\Desktop\\PokemonCiudad\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\BMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\PIPE\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -43,12 +43,11 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -65,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
