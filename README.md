@@ -91,15 +91,6 @@ El juego incluye un sistema completo de efectividad de tipos:
 - **Efectivo** (1x daño): Daño normal
 - **Poco efectivo** (0.5x daño): Ataques debilitados contra el tipo rival
 
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Para contribuir:
-
-1. Fork el proyecto
-2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`)
-3. Commit tus cambios (`git commit -m 'Agregar nueva característica'`)
-4. Push a la rama (`git push origin feature/nueva-caracteristica`)
-5. Abre un Pull Request
 
 ## 📧 Contacto
 
